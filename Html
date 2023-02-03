@@ -1,0 +1,13 @@
+<template>
+      <lightning-card>
+        <div class="slds-var-m-around_medium">
+               <b>Result:  {Result}</b>
+                <lightning-input type="number" name="FirstValue" label=" Enter the FirstValue" onchange={Calc}></lightning-input><br>
+                <lightning-input type="number" name="SecondValue" label=" Enter the SecondValue" onchange={Calc}></lightning-input><br>
+                <lightning-button  variant="brand" label="ADD" onclick={cal}></lightning-button> &nbsp;
+                <lightning-button  variant="brand" label="SUB" onclick={cal}></lightning-button> &nbsp;
+                <lightning-button  variant="brand" label="MUL" onclick={cal}></lightning-button> &nbsp;
+                <lightning-button  variant="brand" label="DIV" onclick={cal}></lightning-button> &nbsp;
+            </div>
+            </lightning-card>
+</template>
